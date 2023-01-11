@@ -12,7 +12,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: dupa
+      MYSQL_ROOT_PASSWORD: baza
     ports:
       - "3307:3306"
     volumes:
