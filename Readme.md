@@ -2,6 +2,22 @@
 
 Projekt opracowano w MySQL przy użyciu phpMyAdmin.
 
+## Movie
+
+![](/TableMovie.png)
+
+Tabela zawiera informację o filmach, datach ich powstania oraz dostępności online.
+
+## Information About Movie
+
+![](/InformationAboutMovieTable.png)
+
+Tabela zawiera dane o gatunkach filmów, kto je reżyserował oraz czy należą do którejś trylogii.
+
+## Era
+
+Tabela informuje o epokach w jakich miały miejsce poszczególne filmy.
+
 ## Galactic Empire Movies
 
 ![](/Question1.png)
