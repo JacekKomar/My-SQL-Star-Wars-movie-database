@@ -6,7 +6,7 @@ Projekt opracowano w MySQL przy użyciu phpMyAdmin.
 
 ![](/TableMovie.png)
 
-Tabela zawiera informację o filmach, datach ich powstania oraz dostępności online.
+Tabela zawiera informacje o filmach, datach ich powstania oraz dostępności online.
 
 ## Information About Movie
 
@@ -18,7 +18,7 @@ Tabela zawiera dane o gatunkach filmów, kto je reżyserował oraz czy należą 
 
 ![](/TableEra.png)
 
-Tabela informuje o epokach w jakich miały miejsce poszczególne filmy.
+Tabela informuje o epokach, w jakich miała miejsce akcja poszczególnych filmów.
 
 ## Galactic Empire Movies
 
@@ -63,7 +63,7 @@ WHERE Trilogy IS NOT NULL
 ORDER BY Trilogy ASC;
 ```
 
-Zapytanie zwraca informację o filmach, które stworzone zostały w ramach istniejących trylogii.
+Zapytanie zwraca informacje o filmach, które stworzone zostały w ramach istniejących trylogii.
 
 ## Series Available On Disney Plus
 
@@ -75,7 +75,7 @@ FROM ((Movie
 INNER JOIN Era ON Movie.Id = Era.Id)
 INNER JOIN InformationAboutMovie ON Movie.Id = InformationAboutMovie.Id)
 WHERE Genre IN ("Live action series", "Animation series")
-HAVING InDisneyPlus = "Available"
+AND InDisneyPlus = "Available"
 ORDER BY Genre DESC;
 ```
 
