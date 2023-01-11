@@ -16,6 +16,8 @@ Tabela zawiera dane o gatunkach filmów, kto je reżyserował oraz czy należą 
 
 ## Era
 
+![](/TableEra.png)
+
 Tabela informuje o epokach w jakich miały miejsce poszczególne filmy.
 
 ## Galactic Empire Movies
